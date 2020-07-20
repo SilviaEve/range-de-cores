@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Calculadora de Cores</title>
+    </head>
+    <h1>Calculadora de Cores</h1>
+    <body>
+        <div id="container">
+            <div id="range-container">
+                <div id="range-slide">
+                    <div class="row">
+                        <h2>R<h2>
+                        <input type="range" value='0' id="red" class="custom-range" min='0' max="255">
+                        <div class="show-range-box" id="red-box"></div>
+                    </div>
+                    <div class="row">
+                         <h2>G<h2>
+                        <input type="range" value='0' id="green" class="custom-range" min='0' max="255">
+                        <div class="show-range-box" id="green-box"></div>
+                    </div>
+                    <div class="row">
+                         <h2 id='teste'>B<h2>
+                        <input type="range" value='0' id="blue" class="custom-range" min='0' max="255">
+                        <div class="show-range-box" id="blue-box"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="color"></div>
+        </div>
+        <script src="./js/scripts.js"></script>
+    </body>
+</html>
